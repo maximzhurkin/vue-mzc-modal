@@ -1,0 +1,39 @@
+html, body, #app {
+	margin: 0;
+	padding: 0;
+  height: 100%;
+	color: #C5D4E3;
+	background-color: #22272E;
+}
+#app {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  display: flex;
+	flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.demo-button {
+	cursor: pointer;
+	padding-left: 32px;
+	padding-right: 32px;
+	height: 32px;
+	font-weight: 700;
+	color: #A2AEBB;
+	background-color: #373E47;
+	border: 1px solid #464E57;
+	border-radius: 6px;
+}
+.demo-content {
+	font-size: 14px;
+	line-height: 20px;
+}
+.vue-mzc-modal {
+	background-color: rgba(28, 33, 40, 0.8);
+}
+.vue-mzc-modal-box {
+	color: #ACBAC6;
+  background-color: #2D333B;
+}
+.vue-mzc-modal-box__close {
+	background-image: url("data:image/svg+xml,%3Csvg width='14' height='14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7 8.4 1.4 14 0 12.6 5.6 7 0 1.4 1.4 0 7 5.6 12.6 0 14 1.4 8.4 7l5.6 5.6-1.4 1.4L7 8.4Z' fill='%23ACBAC6'/%3E%3C/svg%3E");
+}
