@@ -1,7 +1,6 @@
 <script>
 import Vue from "vue";
 import VueMzcModal from "@/vue-mzc-modal.vue";
-import "../src/vue-mzc-modal.css";
 import "./serve.css";
 
 export default Vue.extend({
