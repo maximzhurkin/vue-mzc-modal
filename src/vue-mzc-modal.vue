@@ -20,13 +20,14 @@ export default /*#__PURE__*/ {
     <div class="vue-mzc-modal__container">
       <div class="vue-mzc-modal__middle">
         <div class="vue-mzc-modal__box">
-          <div class="vue-mzc-modal__overlay" @click="$emit('close')"></div>
-          <div class="vue-mzc-modal-box" ref="modal" @keydown.esc="$emit('close')" tabindex="0">
+          <div class="vue-mzc-modal__overlay" aria-hidden="true" @click="$emit('close')"></div>
+          <div class="vue-mzc-modal-box" aria-modal="true" ref="modal" @keydown.esc="$emit('close')" tabindex="-1">
             <div class="vue-mzc-modal-box__header">
               <div class="vue-mzc-modal-box__title">{{ title }}</div>
               <button
                 class="vue-mzc-modal-box__close"
                 @click="$emit('close')"
+                tabindex="0"
               ></button>
             </div>
             <slot />
